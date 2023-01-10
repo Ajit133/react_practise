@@ -1,13 +1,8 @@
-import Child from "./State_Lifting/Child";
+import Home from "./State_Lifting/Home";
 function App() {
-  const text = "I am from App Component";
-  const dataFromChild =(data) =>{
-      console.log(data) 
-      // data from child ..This is State lifting 
-  }
   return(
    <div>
-  <Child text={text} dataFromChild ={dataFromChild} /> 
+  <Home />
   </div>
   )
 }
