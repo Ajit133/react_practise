@@ -1,8 +1,8 @@
-import Home from "./State_Lifting/Home";
+import Faqs from "./FAQS/faqs";
 function App() {
   return(
    <div>
-  <Home />
+  <Faqs />
   </div>
   )
 }

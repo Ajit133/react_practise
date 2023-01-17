@@ -8,6 +8,7 @@ const Home = () =>{
     const[todos,setTodos] = useState(dummyTodos);
     const handleNewTodo = (newTodo) =>{
         setTodos([...todos,newTodo])
+        // now we use to spread operator to ...todos and newTodo.
     }
      
     return(
