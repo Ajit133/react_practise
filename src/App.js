@@ -1,9 +1,9 @@
-import Faqs from "./FAQS/faqs";
+import DataFetch from "./Hooks/DataFetch";
+
+// import Example from "./Hooks/useEffecthooks";
 function App() {
   return(
-   <div>
-  <Faqs />
-  </div>
+   <DataFetch />
   )
 }
 export default App;
